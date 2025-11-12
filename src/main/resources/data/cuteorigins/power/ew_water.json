@@ -1,10 +1,9 @@
 {
-  "effect": "minecaft:damage",
+  "effect": "cuteorigins:potion_effect",
   "visible": true,
   "negative": true,
-  "damage": 2,
-  "speed": 20,
-  "damage_type": "minecraft:drown",
+  "status_effect": "minecraft:weakness",
+  "potency": 2,
   "condition": {
     "check_type": "water",
     "parameters": {
